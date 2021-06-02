@@ -1,0 +1,52 @@
+/*
+    color palates:
+    #ECF4F3
+    #68B0AB
+    #006A71
+    #FF7E67
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Kameron', serif;
+}
+
+
+h1 {
+    font-family: 'Courgette', cursive;
+    margin-top: 0;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-top {
+    background-color: #ecf4f3;
+    position:relative;
+    padding-top: 100px;
+}
+.container-mid {
+   background-color:  #68B0AB;
+}
+
+.container-bottom {
+    background-color: #FF7E67; 
+}
+
+.cloud-bottom {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.cloud-top {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
