@@ -1,42 +1,52 @@
 /*
     color palates:
-    #ECF4F3
-    #68B0AB
-    #006A71
-    #FF7E67
+    #ff7b54
+    #ffb26b
+    #ffd56b
+    #2f490e
 */
 
 body {
+    font-family: 'Kameron', serif;
+    font-size: 1.5em;
     margin: 0;
     text-align: center;
-    font-family: 'Kameron', serif;
+    color: #2f490e;  
 }
 
 
 h1 {
     font-family: 'Courgette', cursive;
-    margin-top: 0;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
+hr {
+    color: rgb(11, 11, 105);
+    border-color: rgb(11, 11, 105);
+}
+
 .container-top {
-    background-color: #ecf4f3;
+    background-color: #ff7b54;
     position:relative;
     padding-top: 100px;
 }
 .container-mid {
-   background-color:  #68B0AB;
+    
+   background-color:  #ffb26b;
 }
 
 .container-bottom {
-    background-color: #FF7E67; 
+    background-color: #ffd56b; 
 }
 
 .cloud-bottom {
@@ -50,3 +60,8 @@ h3 {
     right: 300px;
     top: 50px;
 }
+
+.profile-pic {
+    border-radius: 100%;
+}
+
