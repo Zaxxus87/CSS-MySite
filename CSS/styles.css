@@ -11,14 +11,14 @@ body {
 
 h1 {
     font-family: 'Courgette', cursive;
-    font-size: 3.25rem;
+    font-size: 2.75rem;
     margin: 3.125rem auto 0 auto;
     color: #3a87bb;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.0rem;
+    font-size: 1.75rem;
     color: #214096;
     margin-bottom: 1.25rem;
 }
@@ -57,9 +57,41 @@ p {
     bottom: 16.5rem;
 }
 
+@media only screen and (max-width: 600px) {
+    .cloud-top {
+        position:relative;
+        right: auto;
+        top: auto;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .cloud-bottom {
+        position:relative;
+        left: auto;
+        bottom: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1{
+        margin: auto;
+        padding-right: 50px;
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        padding-right: 60px;
+        font-size: 1.5rem;
+    }
+    
+}
+
+
 .rocket-img {
     margin-top: 6.25rem;
-    padding: 4rem;
+    padding: 4.5rem;
     height: 12.5rem;
     
 } 
@@ -73,8 +105,6 @@ p {
     padding-top: 50px;
 
 }
-
-
 
 .profile {
     width: 50%;
@@ -110,29 +140,14 @@ p {
     text-align: left;
 }
 
-.projects-text {
-    font-size: 85%;
-    color: #020c0c;
-    
-}
-
-
-.proj-title {
-    color: #020c0c;
-    font-size: 85%;
-}
-
-.proj-link {
-    font-size: 75%;
-    color: #020c0c;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-}
-
 .container-midD { 
     background-color: #d3e4f0;
     padding: 50px 0;
     margin-top: 100px;
+}
+
+.card-height {
+    height: 10rem;
 }
 
 .container-bottom {
