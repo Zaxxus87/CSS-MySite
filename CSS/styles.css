@@ -59,16 +59,17 @@ p {
 
 @media only screen and (max-width: 600px) {
     .cloud-top {
-        position:relative;
+        position:absolute;
         right: auto;
         top: auto;
         padding-bottom: 20px;
+        z-index: -1;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .cloud-bottom {
-        position:relative;
+        position:absolute;
         left: auto;
         bottom: auto;
     }
@@ -86,6 +87,12 @@ p {
         font-size: 1.5rem;
     }
     
+}
+@media only screen and (max-width: 600px) {
+    .heading-text{
+        background: transparent;
+        z-index: 2;
+    }
 }
 
 
